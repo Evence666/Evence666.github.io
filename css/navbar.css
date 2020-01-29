@@ -8,6 +8,11 @@ body {
   background-repeat: repeat;
 }
 
+.panel-heading-font{
+  font-style: normal;
+  font-weight: bolder;
+}
+
 #preview{
   text-align: justify;
 }
