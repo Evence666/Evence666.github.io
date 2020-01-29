@@ -1,0 +1,124 @@
+body {
+  min-width:970px;
+  padding-top: 20px;
+  padding-bottom: -920px;
+  background-color: #fff;
+  background-image: url(../images/background.gif);
+  /* background: rgba(255,255,255,.5); */
+  background-repeat: repeat;
+}
+
+#preview{
+  text-align: justify;
+}
+.navbar {
+  width: 1080px !important;
+  margin-bottom: 20px;
+}
+
+.navbar-header{
+	margin-top: 10px;
+}
+.navbar li {
+  width:90px !important;
+  margin:0px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar li a:hover { 
+  background-color: transparent;
+  text-align: center;
+  color: red;
+}
+.navbar li a{
+  margin-top:-9px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.icon{
+	margin-left:50px;
+}
+
+.info{
+	margin-left: 10%;
+}
+#info{
+    width:350px !important;
+
+}
+.rightcol .li{
+	margin-left: 5px;
+}
+.news
+{
+ 	padding-top: 5px;
+
+}
+div hr{
+
+}
+.hr hr {	
+background-color: #000;
+position:absolute;
+width:100% !important;
+height: 10px;
+margin-top: 135px;
+
+}
+
+.intro p::first-letter {
+    font-size: 24px;
+    color:#000;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#wordcloud{
+  background-color: #000;
+
+}
+
+/*
+ * Footer
+ */
+.container{
+    width: 1250px !important;
+
+}
+.mastfoot {
+  font-size: 12px;
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+/* Padding for spacing */
+.inner {
+  color:#777;
+  text-align: center;
+  padding: 10px;
+}
+
+blue{
+  color:blue;
+}
+
+.carousel-demo {
+  width:100%;
+}
+.carousel-demo-vertical {
+
+  width:100%;
+}
+.carousel-demo li {
+
+  list-style:none;
+  margin:0 10px 0 0;
+  padding-top: 20px;
+  text-align:center;
+  height:100px;
+}
+.carousel-demo-vertical li {
+  margin:0 0 10px 0;
+}
+
