@@ -6,6 +6,7 @@ body {
   background-image: url(../images/background.png);
   /* background: rgba(255,255,255,.5); */
   background-repeat: repeat;
+  src: url('../fonts/glyphicons-halflings-regular.ttf'); /*字体源文件*/
 }
 
 .year_font{
