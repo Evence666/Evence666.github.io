@@ -1,12 +1,12 @@
 #carousel {
-  width:960px;
-  /* border:1px solid #222; */
-  height:300px;
+  /* width:960px; */
+  height:200px;
   position:relative;
   clear:both;
   overflow:hidden;
   background:#FFF;
-  
+  text-align: center;
+  /* margin: 20px; */
 }
 #carousel img {
   cursor:pointer; /* otherwise it's not as obvious items can be clicked */
