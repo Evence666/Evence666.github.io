@@ -6,7 +6,7 @@ $(document).ready(function () {
   var carousel = $("#carousel").waterwheelCarousel({
     autoPlay:1,
     speed:2000,
-    flankingItems: 4,
+    flankingItems: 3,
     movingToCenter: function ($item) {
       $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
     },
