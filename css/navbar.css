@@ -14,6 +14,10 @@ body {
   src: url('../fonts/glyphicons-halflings-regular.ttf'); /*字体源文件*/
 }
 
+#dblp_link{
+  margin-left: 20px;
+}
+
 .year_font{
   font-family: Georgia,'Franklin Gothic Medium', Arial, sans-serif;
 }
