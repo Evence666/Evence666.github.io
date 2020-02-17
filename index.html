@@ -37,83 +37,46 @@
     <script type="text/javascript" src="js/custom.js"></script>
 
     <script>
-        $(function () {
-            // get markdown content  
-            var all_news_location = './information/all_news.rtf';
-            var latest_news_location = 'information/latest_news.rtf';
+        // get markdown content  
+        var body_location = 'information/about.md';
+        var news_location = 'information/news1.md';
+        var honors_location = 'information/honors.md';
 
-            // function getText(myUrl){
-            //     var result = null;
-            //     $.ajax( { url: myUrl, 
-            //             type: 'get', 
-            //             dataType: 'html',
-            //             async: false,
-            //             success: function(data) { result = data; } 
-            //             }
-            //     );
-            //     FileReady = true;
-            //     return result;
-            // }
-
-            // var all_news = gt.getText('all_news_location');
-            // var latest_news = gt.getText('latest_news_location');
-
-
-
-            // var markdown_source = getText(body_location);
-            // var news_source = getText(news_location);
-            // var honors_source = getText(honors_location);
-            // var converter = new Markdown.Converter();
+        function getText(myUrl){
+            var result = null;
+            console.log(myUrl);
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+ 
+        var markdown_source = getText(body_location);
+        var news_source = getText(news_location);
+        var honors_source = getText(honors_location);
+        var converter = new Markdown.Converter();
 
 
-            //document.write(converter.makeHtml("**I am bold!**"));
-            // convert markdown to html
-            //var output = markdown.toHTML( markdown_source );
-            //document.write(output);
+        $(document).ready(function(){
+          var news_data = converter.makeHtml(news_source);
+          var news_data_all = converter.makeHtml(news_source);
 
+          news_data = news_data.split("<!-- More -->");
 
-            // $(document).ready(function(){
-            // var news_data = converter.makeHtml(news_source);
-            // var news_data_all = converter.makeHtml(news_source);
-
-            // //$("#foo").css({'position':'absolute','visibility':'hidden', 'display':'block'});
-            // news_data = news_data.split("<!-- More -->");
-            // //console.log(news_data[0]);
-            // //$('#foo').html(news_data[0]);
-            // //var height = $('#foo').height();
-            // $('#preview').html(converter.makeHtml(markdown_source));
-            // var news_data_new = converter.makeHtml(news_source);
-            // //news_data_new = news_data_new.replace('$$$','');
-
-            // $('#news').html(converter.makeHtml(news_data[0]));
-            // $('#honors').html(converter.makeHtml(honors_source));
-            // /*  var t = $("#news").height();
-            //         console.log(t);
-            //         $("#news").dotdotdot({
-            //     ellipsis  : '',
-            //     height: height+30,
-            // });*/
-
-            // var all_news = gt.getText('all_news_location');
-            // var latest_news = gt.getText('latest_news_location');
-
-
-
-            // var all_news = "所有最新动态";
-            // var latest_news = "短的最新动态";
-
-
-            // $('#news').html(latest_news);
-
-
-            $("#button1").click(function () {
-                //  by using the return-value...
-                // var content = $("#news").triggerHandler("originalContent");
-                // $("#news").replaceWith();
-                // $("#button1").fadeOut().empty();
-
-                $("#button1").replaceWith("正在重构html，网页动态化");
-            });
+          $('#preview').html(converter.makeHtml(markdown_source));
+          var news_data_new = converter.makeHtml(news_source);
+          $('#news').html(converter.makeHtml(news_data[0]));
+          $('#honors').html(converter.makeHtml(honors_source));
+          $("#button1").click(function() {
+            // $("#news").replaceWith('111');
+            $("#news").replaceWith(news_data_all);
+            $("#button1").fadeOut().empty();
+          });                 
         })
 
     </script>
