@@ -62,6 +62,7 @@
         var converter = new Markdown.Converter();
 
 
+
         $(document).ready(function(){
           var news_data = converter.makeHtml(news_source);
           var news_data_all = converter.makeHtml(news_source);
@@ -73,11 +74,27 @@
           $('#news').html(converter.makeHtml(news_data[0]));
           $('#honors').html(converter.makeHtml(honors_source));
           $("#button1").click(function() {
+            console.log('button pressed!!');
+            xhr = new XMLHttpRequest();
+            xhr.open('get', news_location);
+            xhr.send('')
+            xhr.onload = function(){
+                console.log(xhr.responseText)
+            }
             // $("#news").replaceWith('111');
-            $("#news").replaceWith(news_data_all);
-            $("#button1").fadeOut().empty();
+            // $("#news").replaceWith(news_data_all);
+            // $("#button1").fadeOut().empty();
           });                 
         })
+
+        // ajaxBtn.addEventListener('click', function(){
+        //     xhr = new XMLHttpRequest();
+        //     xhr.open('get', news_location);
+        //     xhr.send('')
+        //     xhr.onload = function(){
+        //         console.log(xhr.responseText)
+        //     }
+        //     })
 
     </script>
 </head>
