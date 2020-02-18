@@ -4,7 +4,6 @@
 * Best Paper Award, the 24th International Conference on Parallel and Distributed Systems(ICPADS'18), Sentosa, Singapore, Dec. 11-13, 2018
 * Best Paper Award, ChinaCrypt'18, Sichuan, China, Oct. 26-28, 2018
 * Best Paper Award, the 13th ACM ASIA Conference on Computer and Communications Security(AsiaCCS'18), Songdo, Korea, Jun. 4–8, 2018
-
 * SUNY Empire Innovation Professor, University at Buffalo, State University of New York, 2017
 * Best Paper Award, IEEE/ACM International Symposium on Quality of Service (IWQoS'17), Vilanova, Barcelona, Spain, June 14-16, 2017
 * Best Student Paper Award, The 37th IEEE International Conference on Distributed Computing Systems (ICDCS'17), Atlanta, GA, June 5-8, 2017
