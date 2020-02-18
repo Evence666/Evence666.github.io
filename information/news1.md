@@ -1,13 +1,23 @@
+* [Jan. 2020] Kui has received the IEEE INFOCOM **Test of Time Paper Award** 2020!
+* [Jan. 2020] Kui is invited to serve as **Chair** of ACM SIGSAC China!
+* [Dec. 2019] We received the **Best Paper Award** from 2019 IEEE Global Communications Conference[(GLOBECOM'19)](https://globecom2019.ieee-globecom.org/program/technical-program/best-paper-awards)
+* [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
+* [Nov. 2019] Kui received the **Highly Cited Researchers of the Year Award**, 2019
+* [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
+* [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems(ICPADS'18)](https://icpads.sg/)
+* [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
+* [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
+* [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
 * [Aug. 2017] Our research on **voice hacking protection** has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! 
 * [Aug. 2017] Kui is invited to join the steering committee of ACM Asia Conference on Computer and Communications Security (AsiaCCS)! 
+<!-- More -->
 * [Aug. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [ChinaPrivacy'17](http://icds.gzu.edu.cn/ChinaPrivacy2017/)! 
 * [Jul. 2017] UbiSeC lab got one paper accepted by [CCS'17](https://www.sigsac.org/ccs/CCS2017/)
 * [Jul. 2017] UbiSeC lab received the **Best Paper Award** from [IWQoS'17](http://iwqos2017.ieee-iwqos.org/)!
 * [Jun. 2017] Our **voice hacking protection** paper received the **Best Student Paper Award** from [ICDCS'17](http://icdcs2017.gatech.edu/)!
 * [Jun. 2017] Kui delivered a **Keynote Talk**, titled "The Security Challenges in the Internet of Things" at [IEEE DSC'17](http://ieee-dsc.org/2017/)! 
 * [Jun. 2017] UbiSeC lab got one paper accepted by [MobiCom'17](https://www.sigmobile.org/mobicom/2017/)!
-<!-- More -->
 * [May 2017] Kui delivered an **Invited Talk**, titled "The Security Challenges in the Internet of Things" at [Huawei, Shenzhen]()! 
 * [Apr. 2017] Kui receives 2017 IEEE CISTC **Technical Recognition Award**, with the citation "for outstanding contributions to cloud security and wireless security"!
 * [Mar. 2017] Congratulations to Zhan Qin, who just accepted a **tenure track assistant professor** position from the ECE Department at **University of Texas at San Antonio**!
