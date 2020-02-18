@@ -4,7 +4,7 @@
 * [Nov. 2019] Congratulations! Guangtong-Zhejiang University Cyberspace Security Joint Laboratory has been established!
 * [Nov. 2019] Kui received the **Highly Cited Researchers of the Year Award**, 2019
 * [Oct. 2019] Congratulations! Ant Financial-Zhejiang University Financial Technology Research Center of Data Security and Privacy Protection has been established!
-* [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems(ICPADS'18)](https://icpads.sg/)
+* [Dec. 2018] We received the **Best Paper Award** from the 24th International Conference on Parallel and Distributed Systems[(ICPADS'18)](https://icpads.sg/)
 * [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
 * [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
