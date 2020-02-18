@@ -8,7 +8,6 @@
 * [Oct. 2018] We received the **Best Paper Award** from [ChinaCrypt'18](http://sca.hainan.gov.cn/dt/xwdt/201811/t20181113_2927693.html)
 * [Jun. 2018] Congratulations! Alibaba-Zhejiang University Joint Research Institute of Frontier Technologies(AZFT) has been established!
 * [Jun. 2018] We received the **Best Paper Award** from the 2018 Asia Conference on Computer and Communications Security[(AsiaCCS’18)](http://asiaccs2018.org/)
-
 * [Aug. 2017] Kui is named **SUNY Empire Innovation Professor** by University at Buffalo, State University of New York! 
 * [Aug. 2017] Our research on **voice hacking protection** has been widely reported by the media, including CBS News, Scientific American, ACM TechNews, The Conversation, etc.! 
 * [Aug. 2017] Kui is invited to join the steering committee of ACM Asia Conference on Computer and Communications Security (AsiaCCS)! 
