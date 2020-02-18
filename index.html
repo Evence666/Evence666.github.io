@@ -40,7 +40,7 @@
         // get markdown content  
         // var body_location = 'information/about.md';
         var news_location = 'information/news1.md';
-        // var honors_location = 'information/honors.md';
+        var honors_location = 'information/honors.md';
 
         function getText(myUrl){
             var result = null;
@@ -58,7 +58,7 @@
  
         // var markdown_source = getText(body_location);
         var news_source = getText(news_location);
-        // var honors_source = getText(honors_location);
+        var honors_source = getText(honors_location);
         var converter = new Markdown.Converter();
 
 
@@ -72,7 +72,7 @@
         //   $('#preview').html(converter.makeHtml(markdown_source));
           var news_data_new = converter.makeHtml(news_source);
           $('#news').html(converter.makeHtml(news_data[0]));
-        //   $('#honors').html(converter.makeHtml(honors_source));
+          $('#honors').html(converter.makeHtml(honors_source));
           $("#button1").click(function() {
             console.log('button pressed!!');
             // xhr = new XMLHttpRequest();
@@ -83,7 +83,7 @@
             // }
             // $("#news").replaceWith('111');
             $("#news").replaceWith(news_data_all);
-            // $("#button1").fadeOut().empty();
+            $("#button1").fadeOut().empty();
           });                 
         })
 
