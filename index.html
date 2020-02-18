@@ -42,36 +42,36 @@
         var news_location = 'information/news1.md';
         // var honors_location = 'information/honors.md';
 
-        // function getText(myUrl){
-        //     var result = null;
-        //     console.log(myUrl);
-        //     $.ajax( { url: myUrl, 
-        //               type: 'get', 
-        //               dataType: 'html',
-        //               async: false,
-        //               success: function(data) { result = data; } 
-        //             }
-        //     );
-        //     FileReady = true;
-        //     return result;
-        // }
+        function getText(myUrl){
+            var result = null;
+            console.log(myUrl);
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
  
         // var markdown_source = getText(body_location);
-        // var news_source = getText(news_location);
+        var news_source = getText(news_location);
         // var honors_source = getText(honors_location);
         // var converter = new Markdown.Converter();
 
 
 
         $(document).ready(function(){
-        //   var news_data = converter.makeHtml(news_source);
-        //   var news_data_all = converter.makeHtml(news_source);
+          var news_data = converter.makeHtml(news_source);
+          var news_data_all = converter.makeHtml(news_source);
 
-        //   news_data = news_data.split("<!-- More -->");
+          news_data = news_data.split("<!-- More -->");
 
         //   $('#preview').html(converter.makeHtml(markdown_source));
-        //   var news_data_new = converter.makeHtml(news_source);
-        //   $('#news').html(converter.makeHtml(news_data[0]));
+          var news_data_new = converter.makeHtml(news_source);
+          $('#news').html(converter.makeHtml(news_data[0]));
         //   $('#honors').html(converter.makeHtml(honors_source));
           $("#button1").click(function() {
             console.log('button pressed!!');
@@ -82,7 +82,7 @@
                 console.log(xhr.responseText)
             }
             // $("#news").replaceWith('111');
-            // $("#news").replaceWith(news_data_all);
+            $("#news").replaceWith(news_data_all);
             // $("#button1").fadeOut().empty();
           });                 
         })
