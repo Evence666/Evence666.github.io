@@ -35,7 +35,27 @@
         <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
     </head>
-
+    <script>  
+        // get markdown content  
+        var teaching_location = 'information/teaching.md';     
+        function getText(myUrl){
+            var result = null;
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+        var teaching_source = getText(teaching_location);
+        var converter = new Markdown.Converter();
+        $(document).ready(function(){
+          $('#teaching').html(converter.makeHtml(teaching_source));
+        })
+      </script>
   <body>
 <div class="hr"><hr></div>
 

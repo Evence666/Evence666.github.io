@@ -11,11 +11,11 @@
  * Shaoke Xi, Fall 2019 - Present
  * Xia Zhou, Fall 2018 - Present
  * Bo Li, Fall 2018 - Present
- * Sixu Piao, PhD Student, Fall 2014 - 
- * Cheng Song, PhD Student, Co-advised with Prof. Wenyao Xu, Fall 2014 -
- * Zhongjie Ba, PhD Student, Fall 2015 - 
- * Zihao Shan, PhD Student, Spring 2016 -
- * Tianhang Zheng, PhD Student, Spring 2017 -
+ * Sixu Piao, PhD Student, Fall 2014 - Present
+ * Cheng Song, PhD Student, Co-advised with Prof. Wenyao Xu, Fall 2014 - Present
+ * Zhongjie Ba, PhD Student, Fall 2015 - Present
+ * Zihao Shan, PhD Student, Spring 2016 - Present
+ * Tianhang Zheng, PhD Student, Spring 2017 - Present
  
 ---
 
