@@ -18,7 +18,7 @@
  
 ---
 
-### Visitors
+### Master
  
  * Ziyi Chen, Fall 2019 - Present
  * Yiling He, Fall 2019 - Present
