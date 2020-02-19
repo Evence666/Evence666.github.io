@@ -37,6 +37,29 @@
 
     </head>
 
+    <script>  
+        // get markdown content  
+        var alumni_location = 'information/alumni.md';
+        function getText(myUrl){
+            var result = null;
+            $.ajax( { url: myUrl, 
+                      type: 'get', 
+                      dataType: 'html',
+                      async: false,
+                      success: function(data) { result = data; } 
+                    }
+            );
+            FileReady = true;
+            return result;
+        }
+        var alumni_source = getText(alumni_location);
+        var converter = new Markdown.Converter();
+        $(document).ready(function(){
+          $('#alumni').html(converter.makeHtml(alumni_source));
+        })
+      </script>
+
+
   <body>
 <div class="hr"><hr></div>
      <div class="container">
